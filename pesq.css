@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #070707;
+    position: relative;
+    background-image: url('Ooops!.png');
+}
+
+
+.volta{
+    width: 30%;
+    position: relative;
+    left: 6%;
+    padding-top: 30%;
+}
+.voltar{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    color: #f3f1f1;
+    border: #e4e3e3 solid 1px;
+    border-radius: 20px;
+    padding: 25px 68px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.voltar:hover{
+    border: 1px solid #f2c40d;
+    background-color: #f2c40d;
+    transition: 0.9s;
+    font-size: 20px;
+    font-weight: 400;
+    color:#0d0d0d;
+}
